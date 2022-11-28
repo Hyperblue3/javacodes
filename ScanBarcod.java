@@ -13,25 +13,25 @@ public class cevap2 {
 			barkod[i]=a;
 			
 		}
-		System.out.println("Barkod numarası taranıyor");
+		System.out.println("Scanning Barcod");
 		for (int l=0;l<barkod.length;l++) {  //barkod yazdırma
 			System.out.print(" "+barkod[l]);
 		}
 		System.out.println("");
-		System.out.println("Barkodun son rakamı "+barkod[12]);
+		System.out.println("Last number of barcod "+barkod[12]);
 		System.out.println();
 		
-		System.out.println("Geçerli barkod numarası");
+		System.out.println("valid barcod no");
 		for (int l=0;l<barkod.length-1;l++) {  //barkod yazdırma
 			System.out.print(""+barkod[l]);
 		}
 		System.out.println();
 		if (10-(((barkod[0]+barkod[2]+barkod[4]+barkod[6]+barkod[8]+barkod[10])*2+(barkod[1]+barkod[3]+barkod[5]+barkod[7]+barkod[9]+barkod[11])*5)%10) == (barkod[12]))//barkodun dogrulugunu kontrol eden algoritma
 {
-	System.out.println("barkod numarası geçerli");
+	System.out.println("barcod no is valid");
 			
 		}
-		else System.out.println("barkod numarası geçersiz");
+		else System.out.println("barcod no is not valid");
 
 		
 
