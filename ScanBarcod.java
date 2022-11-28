@@ -2,7 +2,7 @@ package ödev2;
 
 import java.util.Scanner;
 
-public class cevap2 {
+public class ScanBarcod {
 
 	public static void main(String[] args) {
 		int [] barkod = new int[13]; //dizimiz
