@@ -6,7 +6,7 @@ public class cevap2 {
 
 	public static void main(String[] args) {
 		int [] barkod = new int[13]; //dizimiz
-		System.out.println("Barkod giriniz");
+		System.out.println("Enter barcod no");
 		Scanner sc =new Scanner(System.in);	
 		for (int i=0;i<barkod.length;i++) { //diziye barkod elemanlarını atama oluşturma
 			int a=sc.nextInt();
