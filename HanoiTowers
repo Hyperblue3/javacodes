@@ -1,7 +1,7 @@
 package ödev2;
 
 import java.util.*;
-public class cevap6 { //recursion yapan class
+public class HanoiTowers { //recursion yapan class
 	static void Hanoikule(int n, char ilkCubuk,
             char sonCubuk, char yardımcıCubuk)
 {
