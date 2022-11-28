@@ -4,13 +4,13 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.*;
 import java.io.*;
-public class cevap4 {
+public class diceroll {
 
 	public static void main(String[] args) {
 		Scanner sc =new Scanner(System.in);
-		System.out.println("Zar sayisini giriniz");
+		System.out.println("Enter dice number");
 		int a=sc.nextInt();
-		System.out.println("Atış sayısını giriniz");
+		System.out.println("Enter number of dice roll");
 		int b=sc.nextInt();
 		int i=0;
 		int toplam=0;
@@ -57,7 +57,7 @@ public class cevap4 {
 		    }
 		    while(a>0);
 			toplam=0;
-		   System.out.println("          "+k+".atış");
+		   System.out.println("          "+k+".roll");
 		  
 		   
 		   b--;
