@@ -23,18 +23,18 @@ public class DiceGamePvP {
 				int zartoplam2=zar3+zar4;//toplamlar
 			System.out.println("In game "+i+". turn starting");
 			System.out.println("on 1st turn sum of the 1st player's dices: "+(zar1+zar2));
-			System.out.println("1. zar değeri = "+zar1+ " ve 2. zar değeri = "+zar2+ " toplami = "+(zar1+zar2));
+			System.out.println("Value of 1st dice = "+zar1+ " and Value of 2nd dice = "+zar2+ " ,sum of them = "+(zar1+zar2));
 			System.out.println("on 1st turn sum of the 2nd player's dices: "+(zar3+zar4));
 			System.out.println("value of 1st dice = "+zar3+ " value of 2nd dice = "+zar4 +" sum of them = "+(zar3+zar4));
 				if (zartoplam1>zartoplam2) {
-					System.out.println("Zarlar arasindaki fark= "+(zartoplam1-zartoplam2));
-					System.out.println("Birinci oyuncu "+(zartoplam1-zartoplam2)+"para kazandi");
+					System.out.println("Diffirence between dices= "+(zartoplam1-zartoplam2));
+					System.out.println("1st player won "+(zartoplam1-zartoplam2)+"$");
 					money1 +=(zartoplam1-zartoplam2);
 					money2 -=(zartoplam1-zartoplam2);
-					System.out.println("Birinci oyuncunun parası= "+money1+"İkinci oyuncunun parası "+money2);
+					System.out.println("Money of the 1st player= "+money1+"Money of the 2nd player "+money2);
 		              }
 					if (zartoplam2>zartoplam1) {
-						System.out.println("Diffirence of dices= "+(zartoplam2-zartoplam1));
+						System.out.println("Diffirence between dices= "+(zartoplam2-zartoplam1));
 						System.out.println("2nd player won "+(zartoplam2-zartoplam1)+" $");
 						money2 +=(zartoplam2-zartoplam1);
 						money1 -=(zartoplam2-zartoplam1);
